@@ -11,12 +11,9 @@
 		93151BF52B845A7500F39CA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93151BF42B845A7500F39CA0 /* ContentView.swift */; };
 		93151BF72B845A7700F39CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93151BF62B845A7700F39CA0 /* Assets.xcassets */; };
 		93151BFA2B845A7700F39CA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93151BF92B845A7700F39CA0 /* Preview Assets.xcassets */; };
-<<<<<<< HEAD
-=======
 		93151C042B845A7700F39CA0 /* iosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93151C032B845A7700F39CA0 /* iosAppTests.swift */; };
 		93151C0E2B845A7700F39CA0 /* iosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93151C0D2B845A7700F39CA0 /* iosAppUITests.swift */; };
 		93151C102B845A7700F39CA0 /* iosAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93151C0F2B845A7700F39CA0 /* iosAppUITestsLaunchTests.swift */; };
->>>>>>> shared-module
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +40,11 @@
 		93151BF62B845A7700F39CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93151BF92B845A7700F39CA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93151BFF2B845A7700F39CA0 /* iosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-<<<<<<< HEAD
 		93151C092B845A7700F39CA0 /* iosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
 		93151C032B845A7700F39CA0 /* iosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppTests.swift; sourceTree = "<group>"; };
 		93151C092B845A7700F39CA0 /* iosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93151C0D2B845A7700F39CA0 /* iosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppUITests.swift; sourceTree = "<group>"; };
 		93151C0F2B845A7700F39CA0 /* iosAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
->>>>>>> shared-module
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				93151BF12B845A7500F39CA0 /* iosApp */,
-<<<<<<< HEAD
-=======
 				93151C022B845A7700F39CA0 /* iosAppTests */,
 				93151C0C2B845A7700F39CA0 /* iosAppUITests */,
->>>>>>> shared-module
 				93151BF02B845A7500F39CA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,8 +111,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
 		93151C022B845A7700F39CA0 /* iosAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +128,6 @@
 			path = iosAppUITests;
 			sourceTree = "<group>";
 		};
->>>>>>> shared-module
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,10 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93151C132B845A7700F39CA0 /* Build configuration list for PBXNativeTarget "iosApp" */;
 			buildPhases = (
-<<<<<<< HEAD
 				9360E1442B851E9600D37F03 /* Compile Kotlin */,
-=======
->>>>>>> shared-module
 				93151BEB2B845A7500F39CA0 /* Sources */,
 				93151BEC2B845A7500F39CA0 /* Frameworks */,
 				93151BED2B845A7500F39CA0 /* Resources */,
@@ -269,7 +254,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
 		9360E1442B851E9600D37F03 /* Compile Kotlin */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -291,8 +275,6 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
-=======
->>>>>>> shared-module
 /* Begin PBXSourcesBuildPhase section */
 		93151BEB2B845A7500F39CA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,10 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
 				93151C042B845A7700F39CA0 /* iosAppTests.swift in Sources */,
->>>>>>> shared-module
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,11 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
 				93151C102B845A7700F39CA0 /* iosAppUITestsLaunchTests.swift in Sources */,
 				93151C0E2B845A7700F39CA0 /* iosAppUITests.swift in Sources */,
->>>>>>> shared-module
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +440,6 @@
 		93151C142B845A7700F39CA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,7 +454,6 @@
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
-=======
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,7 +461,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9WZBU4X727;
 				ENABLE_PREVIEWS = YES;
->>>>>>> shared-module
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -501,24 +474,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rodcollab.cashkeep.iosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
-=======
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
->>>>>>> shared-module
 			};
 			name = Debug;
 		};
 		93151C152B845A7700F39CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -533,7 +502,6 @@
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
-=======
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,7 +509,6 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9WZBU4X727;
 				ENABLE_PREVIEWS = YES;
->>>>>>> shared-module
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -555,10 +522,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rodcollab.cashkeep.iosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD
 				PROVISIONING_PROFILE_SPECIFIER = "";
-=======
->>>>>>> shared-module
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
