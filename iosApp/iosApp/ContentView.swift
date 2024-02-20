@@ -6,7 +6,10 @@
 //
 
 import SwiftUI
+<<<<<<< HEAD
 import shared
+=======
+>>>>>>> shared-module
 
 struct ContentView: View {
     var body: some View {
@@ -14,7 +17,11 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+<<<<<<< HEAD
             Text(Greeting().greet())
+=======
+            Text("Hello, world!")
+>>>>>>> shared-module
         }
         .padding()
     }
