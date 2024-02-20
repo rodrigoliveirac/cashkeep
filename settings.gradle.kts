@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "CashKeep"
 include(":app")
- 
+include(":shared")
