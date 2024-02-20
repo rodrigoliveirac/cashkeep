@@ -1,0 +1,9 @@
+com.rodcollab.cashkeep.shared-pngs-0 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/build/generated/res/pngs/release
+com.rodcollab.cashkeep.shared-resValues-1 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/build/generated/res/resValues/release
+com.rodcollab.cashkeep.shared-mergeReleaseResources-2 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.rodcollab.cashkeep.shared-mergeReleaseResources-3 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.rodcollab.cashkeep.shared-merged_res-4 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/build/intermediates/merged_res/release
+com.rodcollab.cashkeep.shared-androidMain-5 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/src/androidMain/res
+com.rodcollab.cashkeep.shared-androidRelease-6 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/src/androidRelease/res
+com.rodcollab.cashkeep.shared-main-7 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/src/main/res
+com.rodcollab.cashkeep.shared-release-8 /Users/rodrigocavalcante/AndroidStudioProjects/cashkeep/shared/src/release/res
