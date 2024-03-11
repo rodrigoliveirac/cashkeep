@@ -6,27 +6,34 @@
 //
 
 import SwiftUI
-<<<<<<< HEAD
-import shared
-=======
->>>>>>> shared-module
-
+import Shared
 struct ContentView: View {
+    
+    @ObservedObject var viewmodel:LoginViewModel
+    @State var showAlertMessage: Bool = false
+    @State var textAlert: String? = nil
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-<<<<<<< HEAD
-            Text(Greeting().greet())
-=======
-            Text("Hello, world!")
->>>>>>> shared-module
+            
+            Button(action: {
+                viewmodel.register(email: "rodrigocavalcante.pro@gmail.com", password: "1234567", onResult: { msg, displayAlert in
+                    showAlertMessage = !displayAlert
+                    textAlert = msg
+                })
+            }) {
+                Text("Sign In")
+            }.alert(textAlert ?? "", isPresented: $showAlertMessage) {
+                Button("OK") {
+                    showAlertMessage = false
+                }
+            }
+
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewmodel: LoginViewModel(loginService: UserService()))
 }
